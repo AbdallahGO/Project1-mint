@@ -48,6 +48,12 @@ div.bar {
     align-items: center;
 }
 
+@media (min-width: 992px) and (max-width: 1200px) {
+    div.bar {
+        width: 90%;
+    }
+}
+
 div.bar div.links ul {list-style: none;}
 
 div.bar div.links ul li {
@@ -138,6 +144,20 @@ gap: 30px;
 margin-top: 7.5vh;
 margin-bottom: 7.5vh;
 }
+
+@media (min-width:1200px) and (max-width: 1400px){
+    div.work div.show {
+        grid-template-rows:repeat(7 , 100px);
+        grid-template-columns: repeat(3 ,350px);
+}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    div.work div.show {
+        grid-template-rows:repeat(7 , 100px);
+        grid-template-columns: repeat(3 ,250px);
+}
+}
+
 div.work div.show div.one {
     grid-area: one;
     background-image: url(image/image5-2.jpg);
@@ -258,6 +278,12 @@ div.textus img {
     width: 400px;
     height: 500px;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+    div.textus img {
+        width: 300px;
+        height: 00px;
+    }
+}
 /* ===== End-About Us ===== */
 
 /* ===== Start-Blog ===== */
@@ -307,6 +333,41 @@ div.blog div.textbl div:hover:before {
     display: block;
     cursor: pointer;
 }
+
+@media (min-width:1200px) and (max-width: 1400px){
+    div.blog div.textbl img {
+        width: 360px;
+        height: 350px;
+    }
+    
+    div.blog div.textbl div::after {
+        width: 360px;
+        height: 350px;
+    }
+    
+    div.blog div.textbl div::before {
+        font-size:25px;
+}
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    div.blog div.textbl img {
+        width: 290px;
+        height: 250px;
+    }
+    
+    div.blog div.textbl div::after {
+        width: 290px;
+        height: 250px;
+    }
+
+    
+    div.blog div.textbl div::before {
+        font-size:20px;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50% , -50%);
+}
+}
 /* ===== End-Blog ===== */
 
 /* ===== Start-Contact ===== */
@@ -334,6 +395,16 @@ div.contact div.textcon div.form1 {
     flex-direction: column;
     align-content: space-between;
     margin-bottom: 20px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    div.contact div.textcon img {
+        width: 450px;
+    }
+
+    div.contact div.textcon form {
+        margin-left: 50px;
+    }
 }
 
 div.contact div.coninfo {

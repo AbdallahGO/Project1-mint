@@ -1,0 +1,389 @@
+@media (min-width: 768px) and (max-width:992px ){
+h2.HH+p {
+     width: 100%;
+    }
+
+/* ===== Start-bar ===== */
+div.bar {
+    flex-direction: column;
+}
+/* ===== End-bar ===== */
+
+/* ===== Start-Intro ===== */
+div.intro {
+    padding-top: 25vh;
+}
+
+div.textintro h1 {
+    font-size:30px;
+}
+/* ===== End-Intro ===== */
+
+/* ===== Start-Work ===== */
+div.work div.workbar ul.left li {
+    margin-right: 25px; 
+}
+
+div.work div.show {
+    grid-template-rows:repeat(7 , 100px);
+    grid-template-columns: repeat(3 ,200px);
+}
+
+div.work div.show div.one::before ,
+div.work div.show div.two::before ,
+div.work div.show div.three::before ,
+div.work div.show div.four::before , 
+div.work div.show div.five::before ,
+div.work div.show div.six::before {
+    font-size:25px;
+    left: 55%;
+}
+/* ===== End-Work ===== */
+
+/* ===== Start-About Us ===== */
+div.textus {
+    flex-direction: column;
+}
+div.textus img {
+    width: 500px;
+    height: 400px;
+}
+div.textus div.text {
+    text-align: center;
+}
+/* ===== End-About Us ===== */
+
+/* ===== Start-Blog ===== */
+div.blog div.textbl img {
+    width: 200px;
+    height: 200px;
+}
+
+div.blog div.textbl div::after {
+    width: 200px;
+    height: 200px;
+}
+
+div.blog div.textbl div::before {
+    font-size:20px;
+    top: 17.5%;
+}
+/* ===== End-Blog ===== */
+
+/* ===== Start-Contact ===== */
+div.contact div.textcon img {
+    width: 350px;
+}
+
+div.contact div.textcon form {
+    margin-left: 10px;
+}
+/* ===== End-Contact ===== */
+
+/* ===== Start-Footer */
+div.footer p {
+    font-size: 15px;
+}
+
+div.footer a {
+    font-size: 15px;
+}
+
+div.footer a::after {
+    right: 45%;
+    bottom: 30px;
+}
+/* ===== End-Footer */
+}
+
+@media (min-width: 576px) and (max-width:768px){
+    h2.HH+p {
+        width: 100%;
+       }
+   
+   /* ===== Start-bar ===== */
+   div.bar {
+       flex-direction: column;
+   }
+   /* ===== End-bar ===== */
+   
+   /* ===== Start-Intro ===== */
+   div.intro {
+       padding-top: 25vh;
+   }
+   
+   div.textintro h1 {
+       font-size:30px;
+   }
+   /* ===== End-Intro ===== */
+   
+   /* ===== Start-Work ===== */
+   div.work div.workbar ul.left li {
+       margin-right: 25px; 
+   }
+   
+   div.work div.show {
+       grid-template-rows:repeat(7 , 100px);
+       grid-template-columns: repeat(3 ,200px);
+   }
+   
+   div.work div.show div.one::before ,
+   div.work div.show div.two::before ,
+   div.work div.show div.three::before ,
+   div.work div.show div.four::before , 
+   div.work div.show div.five::before ,
+   div.work div.show div.six::before {
+       font-size:25px;
+       left: 55%;
+   }
+   /* ===== End-Work ===== */
+   
+   /* ===== Start-About Us ===== */
+   div.textus {
+       flex-direction: column;
+   }
+   div.textus img {
+       width: 500px;
+       height: 400px;
+   }
+   div.textus div.text {
+       text-align: center;
+   }
+   /* ===== End-About Us ===== */
+   
+   /* ===== Start-Blog ===== */
+   div.blog div.textbl img {
+       width: 200px;
+       height: 200px;
+   }
+   
+   div.blog div.textbl div::after {
+       width: 200px;
+       height: 200px;
+   }
+   
+   div.blog div.textbl div::before {
+       font-size:20px;
+       top: 17.5%;
+   }
+   /* ===== End-Blog ===== */
+   
+   /* ===== Start-Contact ===== */
+   div.contact div.textcon img {
+       width: 350px;
+   }
+   
+   div.contact div.textcon form {
+       margin-left: 10px;
+   }
+   /* ===== End-Contact ===== */
+   
+   /* ===== Start-Footer */
+   div.footer p {
+       font-size: 15px;
+   }
+   
+   div.footer a {
+       font-size: 15px;
+   }
+   
+   div.footer a::after {
+       right: 45%;
+       bottom: 30px;
+   }
+   /* ===== End-Footer */
+   }
+
+   @media (max-width: 576px){
+   	/* ===== Intro-Styling ===== */
+body {width: fit-content;}
+    
+h2.HH {
+    font-size: 7.5vh;
+    text-align: center;
+}
+
+h2.HH+p {
+    font-size:3vh;
+     margin-bottom: 2.5vh;
+     width: 100%;
+    }
+
+button {
+    font-size: 2.5vh;
+    padding: 10px 20px;
+}
+
+/* ===== Start-bar ===== */
+div.bar {
+    width: 100%;
+    flex-direction: column;
+}
+
+div.bar div.links ul li {
+    margin-right: 20px;
+}
+
+div.bar div.links ul li a {
+    font-size: 2vh;
+}
+/* ===== End-bar ===== */
+
+/* ===== Start-Intro ===== */
+div.intro {
+    width: 100%;
+    padding-top:30vh;
+    background-image: url(image/simone-hutsch-l8fyK9RS-OU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+div.textintro {width: 100%;}
+
+div.textintro h1 {
+    font-size:20px;
+}
+
+div.textintro p {
+    font-size: 2.5vh;
+}
+
+div.intro img {display: none;}
+/* ===== End-Intro ===== */
+
+/* ===== Start-Work ===== */
+div.work {
+    padding-top: 10vh;
+}
+
+div.work div.workbar {
+    text-align: center;
+    width: 100%;
+}
+
+div.work div.workbar ul.left {
+    display: flex;
+    gap: 12.5px;
+}
+
+div.work div.workbar ul.left li {
+    margin-right: 10px;
+    width: 100%;
+}
+
+div.work div.workbar ul.left li:hover ,
+div.work div.workbar ul.left li:focus {
+    padding: 5px 10px;
+}
+
+div.work div.workbar ul.left li a {
+    font-size: 2vh;
+}
+
+div.work div.workbar span {display: none;}
+
+div.work div.show {
+    grid-template-rows:repeat(5 , 125px);
+    grid-template-columns: repeat(3 ,125px);
+    grid-template-areas:
+                        "one two three"
+                        "one two three"
+                        "four two six"
+                        "four five six"
+                        "four five six" ;
+
+}
+
+div.work div.show div.one::before ,
+div.work div.show div.two::before ,
+div.work div.show div.three::before ,
+div.work div.show div.four::before , 
+div.work div.show div.five::before ,
+div.work div.show div.six::before {
+    font-size:3vh;
+    font-weight: 900;
+}
+/* ===== End-Work ===== */
+
+/* ===== Start-About Us ===== */
+div.about {
+    padding-top: var(--section-sepreate);
+    padding-left: var(--padding-rt-lf);
+    padding-right: var(--padding-rt-lf);
+}
+
+div.textus {
+    flex-direction: column;
+}
+
+div.textus img {
+    width: 350px;
+    height: 400px;
+}
+
+div.textus div.text {
+    text-align: center;
+}
+/* ===== End-About Us ===== */
+
+/* ===== Start-Blog ===== */
+div.blog {
+    padding-top: var(--section-sepreate);
+    padding-left:var(--padding-rt-lf) ;
+    padding-right:var(--padding-rt-lf) ;
+}
+
+div.blog div.textbl {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+div.blog div.textbl div {position: relative; text-align: center;}
+
+div.blog div.textbl img {
+    width: 310px;
+    height: 300px;
+}
+
+div.blog div.textbl div::after {
+    width: 310px;
+    height: 300px;
+}
+
+div.blog div.textbl div::before {
+    font-size:5vh;
+    left: 50%;
+    top: 30%;
+}
+/* ===== End-Blog ===== */
+
+/* ===== Start-Contact ===== */
+div.contact {
+    text-align: center;
+}
+
+div.contact div.textcon {
+    display: flex;
+    justify-content:center;
+}
+
+div.contact div.coninfo {
+    flex-direction: column;
+    gap:5vh;
+}
+
+div.contact div.textcon img {display: none;}
+
+div.contact div.social img {cursor: pointer;}
+
+/* ===== End-Contact ===== */
+
+/* ===== Start-Footer */
+div.footer {
+    flex-direction: column;
+    height: 50vh;
+}
+/* ===== End-Footer */
+   }
