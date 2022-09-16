@@ -122,6 +122,7 @@ div.work div.workbar ul.left li a {
     text-decoration: none;
     color: black;
     font-size: var(--main-font);
+    cursor: pointer;
 }
 
 div.work div.workbar span {font-size: var(--main-font);}
